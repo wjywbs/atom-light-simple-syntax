@@ -1,0 +1,11 @@
+{
+  "name": "atom-light-simple-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A simple light syntax theme",
+  "repository": "https://github.com/wjywbs/atom-light-simple-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
