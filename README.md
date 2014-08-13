@@ -2,8 +2,8 @@
 
 A simple light syntax theme.
 
-Only keywords, strings, numbers and comments are colored. 
+Only keywords, strings, numbers and comments are colored.
 
 Some colors are from "google-code-prettify".
 
-![Screenshot](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![Screenshot](https://cloud.githubusercontent.com/assets/6233680/3900917/e581bf06-2298-11e4-8fa2-4c6b735409ce.png)
