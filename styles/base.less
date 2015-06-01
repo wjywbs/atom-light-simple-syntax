@@ -1,11 +1,6 @@
 @import "syntax-variables";
 
-.editor-colors {
-  background-color: @syntax-background-color;
-  color: @syntax-text-color;
-}
-
-.editor {
+:host, atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -62,12 +57,12 @@
   }
 }
 
-.editor .search-results .marker .region {
+atom-text-editor .search-results .marker .region {
   background-color: transparent;
   border: 1px solid @syntax-result-marker-color;
 }
 
-.editor .search-results .marker.current-result .region {
+atom-text-editor .search-results .marker.current-result .region {
   border: 1px solid @syntax-result-marker-color-selected;
 }
 
@@ -315,11 +310,11 @@
   }
 }
 
-.editor.mini .scroll-view {
+atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
 }
 
-.bracket-matcher {
+.bracket-matcher .region {
   background-color: @extra-light-gray;
   opacity: .7;
   border-bottom: 0 none;
