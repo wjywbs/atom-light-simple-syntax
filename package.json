@@ -6,6 +6,6 @@
   "repository": "https://github.com/wjywbs/atom-light-simple-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.200.0"
   }
 }
